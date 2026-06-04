@@ -24,6 +24,15 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-notifications"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "745ff646-2b60-439d-9551-32960ce6585d"
+      }
+    },
+    "owner": "azzahratiarap"
   }
 }
