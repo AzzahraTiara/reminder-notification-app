@@ -20,12 +20,12 @@ export default function App() {
   useEffect(() => {
     // Listener saat notifikasi diterima
     notificationListener.current = Notifications.addNotificationReceivedListener(notification => {
-      console.log('📱 Notification Received:', notification);
+      console.log('📱 Stretching Reminder Received:', notification);
     });
 
     // Listener saat notifikasi ditekan
     responseListener.current = Notifications.addNotificationResponseReceivedListener(response => {
-      console.log('🔔 Notification Response:', response);
+      console.log('🔔 Stretching Reminder Response:', response);
     });
 
     // Cleanup
